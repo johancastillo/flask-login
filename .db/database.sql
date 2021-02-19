@@ -6,7 +6,7 @@ CREATE TABLE login(
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(20),
     email VARCHAR(250),
-    password VARCHAR(50)
+    password VARCHAR(250)
 );
 
 

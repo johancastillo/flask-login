@@ -24,7 +24,7 @@ seed = bcrypt.gensalt()
 # Route root
 @app.route("/")
 def main():
-    return "Hellooo World"
+    return render_template("index.html")
 
 
 
